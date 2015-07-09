@@ -1,8 +1,9 @@
 # PostCSS Composes Shorthand [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin adds shorthand for composing classes from modules.
+[PostCSS] plugin adds shorthand for composing classes from modules. Works in conjunction with [css-modules].
 
 [PostCSS]: https://github.com/postcss/postcss
+[css-modules]: https://github.com/css-modules/css-modules
 [ci-img]:  https://travis-ci.org/rtsao/postcss-composes-shorthand.svg
 [ci]:      https://travis-ci.org/rtsao/postcss-composes-shorthand
 
