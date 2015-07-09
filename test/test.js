@@ -32,4 +32,3 @@ test('converts to shorthand with advanced options',
   'a{ blah: q;composes: a b c from "baz"; }',
   {modules: [{shorthand: 'bar', name:'baz'}]}
 );
-

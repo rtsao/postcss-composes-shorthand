@@ -10,18 +10,20 @@
 ## Usage
 
 ```js
-postcss([ require('postcss-composes-shorthand')(['bar']) ])
+postcss([ require('postcss-composes-shorthand')(['bar', {shorthand: 'hi', name: 'hello'}]) ])
 ```
 ##### Input CSS
 ```css
 .foo {
   bar: a b c;
+  hi: y z;
 }
 ```
 ##### Output CSS
 ```css
 .foo {
   composes: a b c from "bar";
+  composes: y z from "hello";
 }
 ```
 
