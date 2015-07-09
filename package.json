@@ -1,0 +1,36 @@
+{
+  "name": "postcss-composes-shorthand",
+  "version": "0.1.0",
+  "description": "PostCSS plugin to add shorthand for composing classes from modules",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "css-modules"
+  ],
+  "author": "Ryan Tsao <rtsao@uber.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtsao/postcss-composes-shorthand.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rtsao/postcss-composes-shorthand/issues"
+  },
+  "homepage": "https://github.com/rtsao/postcss-composes-shorthand",
+  "dependencies": {
+    "postcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-shell": "^0.4.2",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "lint": "gulp lint",
+    "watch": "gulp watch"
+  }
+}
