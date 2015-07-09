@@ -32,3 +32,9 @@ test('converts to shorthand with advanced options',
   'a{ blah: q;composes: a b c from "baz"; }',
   {modules: [{shorthand: 'bar', name:'baz'}]}
 );
+
+test('converts to shorthand with multiple shorthands in options',
+  'a{ blah: q;bar:a b c; hi: y z; }',
+  'a{ blah: q;composes: a b c from "bar"; composes: y z from "hello"; }',
+  {modules: ['bar', {shorthand: 'hi', name:'hello'}]}
+);
